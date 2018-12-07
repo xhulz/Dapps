@@ -14,12 +14,12 @@ Dapp explicando rapidamente como se usa o Truffle e o Ganache.
   - https://marketplace.visualstudio.com/items?itemName=lemon-berry.web3js-snippets
 
 7. Abrir a aplicação no Visual Studio Code
-  - Abrir o arquivo: migrations/2_deploy_contracts.js
+  - Abrir o arquivo: ```migrations/2_deploy_contracts.js```
   - Dentro do arquivo, setar o endereço de carteira para o Owner do Smart Contract. Pode ser qualquer endereço gerado pelo Ganache
 
 8. Abrir o DOS ou Shell
-  - Executar o comando CD para o diretório onde se encontra o projeto
-  - Rodar as migrações (instalação) do Smart Contract para o Blockchain (Ganache) com o comando: truffle migrate --reset
-  - Ainda dentro do diretório, executar o webserver sincronizado com o comando: npm run dev
+  - Executar o comando ```CD``` para o diretório onde se encontra o projeto
+  - Rodar as migrações (instalação) do Smart Contract para o Blockchain (Ganache) com o comando: ```truffle migrate --reset```
+  - Ainda dentro do diretório, executar o webserver sincronizado com o comando: ```npm run dev```
   
 
