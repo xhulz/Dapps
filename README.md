@@ -21,7 +21,7 @@ Dapp explicando rapidamente como se usa o Truffle e o Ganache.
   - Executar o comando ```CD``` para o diretório onde se encontra o projeto
   - Executar o comando ```npm install``` para baixar as depenências do projeto
   - Para Mac, executar o comando para limpar o cache do diretório: ```find . -name ".DS_Store" -delete```
-  - Rodar as migrações (instalação) do Smart Contract no Blockchain (Ganache) com o comando: ```truffle migrate --reset```
+  - Rodar as migrações (instalação) do Smart Contract no Ganache com o comando: ```truffle migrate --reset```
   - Ainda dentro do diretório, executar o webserver sincronizado com o comando: ```npm run dev```
   
 
